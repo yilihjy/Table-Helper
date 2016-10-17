@@ -1,0 +1,38 @@
+{
+    "name": "__MSG_plugin_name__",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "__MSG_description__",
+    "default_locale":"en",
+    "icons": {
+        "16": "T_16x16.png",
+        "48": "T_48x48.png",
+        "128": "T_128x128.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*",
+        "contextMenus"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "content_scripts_1.js"
+            ]
+        }
+    ],
+    "page_action": {
+        "default_icon": "T_19x19.png",
+        "default_title": "__MSG_page_action_title__"
+    }
+}

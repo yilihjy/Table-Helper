@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Table Helper</title>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="xlsx.core.min.js"></script>
+	<script type="text/javascript" src="FileSaver.min.js"></script>
+	<script type="text/javascript" src="tablehelper.js"></script>
+	<script type="text/javascript">
+	function doit(){
+		saveTables();
+	}
+	</script>
+</head>
+
+<body>
+	<table border="1">
+		<tr>
+			<th>标题一</th>
+			<th>标题二</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>4</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+	</table>
+	<table border="1">
+		<tr>
+			<th>标题一</th>
+			<th>标题二</th>
+			<th>标题三</th>
+			<th>标题四</th>
+		</tr>
+		<tr>
+			<td colspan="2" rowspan="2">1</td>
+			<td>a</td>
+			<td>b</td>
+		</tr>
+		<tr>
+			<td>c</td>
+			<td>d</td>
+		</tr>
+		<tr>
+			<td colspan="3">5</td>
+			<td>f</td>
+		</tr>
+	</table>
+	<button onclick="doit()">开始</button>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+    "plugin_name": {
+        "message": "Table Helper",
+        "description": "The plugin name."
+    },
+    "description": {
+        "message": "A plugin help you download all tables in a html page to  .xlsx file",
+        "description": "The description for the plugin."
+    },
+    "page_action_title": {
+        "message": "Download all tables",
+        "description": "The description for the page action."
+    },
+    "contextMenus_title": {
+        "message": "Download all tables in this page.",
+        "description": "The description for the contextMenus."
+    },
+    "no_table": {
+        "message": "Sorry,don't find any table in this page",
+        "description": "Don't find any table."
+    }
+}

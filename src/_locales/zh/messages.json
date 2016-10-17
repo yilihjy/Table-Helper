@@ -1,0 +1,22 @@
+{
+    "plugin_name": {
+        "message": "表格助手",
+        "description": "The plugin name."
+    },
+    "description": {
+        "message": "一个帮助你下载HTML页面中所有表格并保存到.xlsx文件中的插件",
+        "description": "The description for the plugin."
+    },
+    "page_action_title": {
+        "message": "下载全部表格",
+        "description": "The description for the page action."
+    },
+    "contextMenus_title": {
+        "message": "下载本页中的所有表格",
+        "description": "The description for the contextMenus."
+    },
+    "no_table": {
+        "message": "抱歉，在本页中没有找到任何表格",
+        "description": "Don't find any table."
+    }
+}
